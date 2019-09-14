@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: silver;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+nav {
+    float: right;
+    font-size: 16px;
+}
+
+nav > a {
+    float: left;
+    text-decoration: none;
+    padding: 0px 10px;
+    border-right: 1px solid #eee;
+}
+
+.clicked {
+    float: left;
+    padding: 0px 10px;
+    border-radius: 5px;
+
+}
+.container {
+    padding: 80px;
+}
+
+.about-me {
+    background-color: silver;
+    float: left;
+    padding: 0px 20px;
+}
